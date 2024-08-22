@@ -1,0 +1,128 @@
+/* General navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 70px;
+    opacity: 1;
+    margin-bottom: 2rem;
+  }
+  .menu-item:hover,
+  .menu-item.active {
+    top: 34px;
+    left: 601px;
+    width: 122px;
+    height: 41px;
+  
+    /* UI Properties */
+    background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+    background: #01f0d0 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+  
+    /* Additional styling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Assuming white text on the active background */
+    text-decoration: none; /* Active or hover state text color */
+  }
+  .separator {
+    width: 1px;
+    height: 40px; /* Adjust height as needed */
+    background-color: #072635; /* The color of the line */
+    margin: 0 8px; /* Space between the separator and adjacent elements */
+  }
+  .setting_img {
+    width: 19px;
+    height: 20px;
+    margin-right: 0.8rem;
+  }
+  .more_setting {
+    width: 4px;
+    height: 18px;
+  }
+  /* Logo styles */
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  /* Links styles */
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Center the links */
+  .navbar-links a {
+    /* color: white;
+      text-decoration: none; */
+    font-size: 18px;
+  }
+  .navbar-logo {
+    display: flex;
+    align-items: center; /* Vertically center the image */
+    justify-content: center; /* Horizontally center the image (optional) */
+  }
+  .img_css {
+    padding-right: 10px;
+  }
+  .dr_detail {
+    padding-top: 1px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 0px;
+    color: #072635;
+    text-align: left;
+    opacity: 1;
+    padding-left: 10px;
+  }
+  .menu-item {
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-family: "Manrope", sans-serif !important;
+    letter-spacing: 0px !important;
+    color: #072635 !important;
+    text-align: left !important;
+    opacity: 1 !important;
+  
+    display: flex;
+    align-items: center;
+    padding: 10px 15px; /* Ensure consistent padding */
+    color: #333;
+    text-decoration: none;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+    box-sizing: border-box;
+  }
+  .dr_designation{
+      margin: auto 0;
+      font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #707070;
+  text-align: left;
+  opacity: 1;
+  
+  }
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar-links {
+      margin: 10px 0;
+    }
+  }
+  

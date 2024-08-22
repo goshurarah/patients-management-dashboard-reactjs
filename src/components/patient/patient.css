@@ -1,0 +1,87 @@
+.patient-list-main-container {
+    height: 100vh;
+    width: 367px;
+    background-color: white;
+    border-radius: 16px;
+    opacity: 1;
+    box-shadow: 0px 1px 2px rgba(200, 204, 212, 0.1);
+    padding: 1rem;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.side-patient-search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.patient-text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0;
+    color: #072635;
+    margin: auto 0;
+}
+
+.profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.search-img {
+    height: 18px;
+    width: 18px;
+}
+
+.ellipse-img {
+    width: 18px;
+    height: 4px;
+}
+
+.patient-chat-main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.patient-name-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.patient-name-txt {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0;
+    color: #072635;
+    text-align: left;
+    opacity: 1;
+    margin: auto 0;
+}
+
+.patient-name-age {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0;
+    color: #707070;
+    text-align: left;
+    opacity: 1;
+
+    margin: auto 0;
+}

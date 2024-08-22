@@ -1,0 +1,226 @@
+.diagnosis-main-container {
+    background-color: white;
+    border-radius: 16px;
+    opacity: 1;
+    box-shadow: 0px 1px 2px rgba(200, 204, 212, 0.1);
+    padding: 1rem;
+}
+
+.diagnosis-txt {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0;
+    color: #072635;
+    text-align: left;
+    opacity: 1;
+
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+p {
+    margin: auto 0;
+}
+
+.box {
+    flex: 1 1 00px;
+    /* Grow and shrink, with a minimum width of 300px */
+
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+    background: #ffe6f1 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.box_1 {
+    background-color: #e0f3fa;
+}
+
+.box_2 {
+    background-color: #ffe6e9;
+}
+
+.box_3 {
+    background-color: #ffe6f1;
+}
+
+.img_respository {
+    height: 96px;
+    width: 96px;
+}
+
+.box .content {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #707070;
+}
+
+.box .name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.normal_css {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #072635;
+    text-align: left;
+    opacity: 1;
+}
+
+.bpm_css {
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 41px;
+    letter-spacing: 0px;
+    color: #072635;
+    text-align: left;
+    opacity: 1;
+}
+
+.rate_css {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: medium;
+    /* Use '500' if 'medium' is not recognized */
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #072635;
+    text-align: left;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.chart-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    /* Adjust spacing between chart and legend as needed */
+}
+
+.legend-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.legend-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.legend-title {
+    font-weight: bold;
+}
+
+.legend-content {
+    margin-top: 5px;
+}
+
+.tableHeading {
+    background-color: #F6F7F8 !important;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.tableHeading1 {
+    background-color: #F6F7F8 !important;
+}
+
+.tableHeading2 {
+    background-color: #F6F7F8 !important;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.tableHeading {
+    background-color: #F6F7F8 !important;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.tableHeading1 {
+    background-color: #F6F7F8 !important;
+}
+
+.tableHeading2 {
+    background-color: #F6F7F8 !important;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Ensures there's no spacing between cells */
+}
+
+.tableHeading {
+    background-color: #F2F2F2;
+    /* Adjust as needed */
+    text-align: left;
+}
+
+.tableHeading1,
+.tableHeading2 {
+    background-color: #F2F2F2;
+    /* Adjust as needed */
+}
+
+.tableRow td {
+    padding: 8px 12px;
+    /* Adjust the padding as needed */
+    border: none;
+    /* Removes borders between rows and cells */
+}
+
+.tableRow {
+    border: none;
+    /* Removes the border around the row */
+}
+
+@media (max-width: 600px) {
+    .rate_css {
+        font-size: 16px;
+    }
+
+    .bpm_css {
+        font-size: 14px;
+    }
+
+    .normal_css {
+        font-size: 12px;
+    }
+}

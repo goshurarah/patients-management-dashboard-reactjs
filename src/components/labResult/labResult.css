@@ -1,0 +1,46 @@
+.lab-main-container {
+    height: 296px;
+    width: 367px;
+    background-color: white;
+    border-radius: 16px;
+    opacity: 1;
+    box-shadow: 0px 1px 2px rgba(200, 204, 212, 0.1);
+    padding: 2rem;
+    overflow: hidden;
+    overflow: auto;
+    margin-top: 1rem;
+
+}
+
+.lab-txt {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0;
+    color: #072635;
+    text-align: left;
+    opacity: 1;
+
+}
+
+.lab-result {
+    font: normal normal normal 13px/18px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-align: left;
+    text-transform: capitalize;
+    opacity: 1;
+    margin: 1rem 0;
+}
+.download-img{
+    height: 20px;
+    width: 20px;
+}
+.lab-inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
